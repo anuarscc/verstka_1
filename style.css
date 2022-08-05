@@ -285,6 +285,105 @@
 
 .focus {
   width: 100%;
-  background-color: #504DC2#5F12D0
-  
+}
+
+.purple {
+  width: 100%;
+  height: 490px;
+  background: linear-gradient(#504dc2 100%, #5f12d0 100%, #c4c4c4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.purple_top_text {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.purple_top_text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #ffffff;
+
+  width: 540px;
+  height: 88px;
+}
+
+.button_in_purple {
+  background: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  padding: 13px 36px 15px 36px;
+  height: 45px;
+  border: none;
+}
+
+.button_in_purple p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.purple_elements {
+  width: 1110px;
+  background-color: yellow;
+}
+
+.purple_elements h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+
+.purple_elements span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* Accent */
+  color: #4985ff;
+}
+
+.purple_elements h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+
+  /* grey */
+  color: #999999;
+
+  width: 350px;
+  height: 117px;
+  margin-top: 30px;
+}
+
+.purple_elements h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-decoration-line: underline;
+
+  /* Accent */
+  color: #4985ff;
+  margin-top: 30px;
 }
